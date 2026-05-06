@@ -1,0 +1,229 @@
+body
+{
+	background-color: #39C5BB;
+	font-family: Helvetica;
+}
+
+img
+{
+	width: 100%;
+}
+
+h1
+{
+	color: rgb(250,40,150);
+	font-size: 30px;
+}
+
+h5
+{
+	color: white;
+	font-size: 25px;
+	line-height: 1.5;
+}
+a:link
+{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	color: rgb(20,30,225);
+}
+a:visited
+{
+	color: rgb(225,225,225);
+}
+
+.container
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	top:0;
+	left:0;
+}
+
+#bg
+{
+	position: absolute;
+	width: 95%;
+	z-index: 10;
+}
+
+#fixed-eye
+{
+	position: absolute;
+	width: 60%;
+}
+
+#moving-eye
+{
+	width: 15%;
+	position: absolute;
+	z-index: 9;
+}
+
+#works
+{
+	position: absolute;
+	top: 1vh;
+	left: 1vw;
+	z-index: 999;
+}
+
+#about
+{
+	position: absolute;
+	top: 1vh;
+	right: 1vw;
+	z-index: 999;
+
+}
+
+#contact
+{
+	position: absolute;
+	left: 1vw;
+	bottom: 1vh;
+	z-index: 999;
+}
+
+#name
+{
+	position: absolute;
+	right:1vw;
+	bottom: 1vh;
+	z-index: 999;
+}
+button
+{
+	background-color: transparent;
+	color: transparent;
+	outline: none;
+	border: none;
+}
+
+.collapseContent
+{
+	display: none;
+	overflow: hidden;
+}
+
+.aboutPageAbout
+{
+	position: absolute;
+	top: 1vh;
+	right: 1vw;
+	z-index: 999;	
+	text-align: right;
+}
+
+.back
+{
+	position: fixed;
+	bottom: 1vh;
+	right: 1vw;
+	z-index: 999;		
+}
+
+.last
+{
+	position: fixed;
+	bottom: 1vh;
+	left: 35vw;
+	z-index: 999;		
+}
+
+.next
+{
+	position: fixed;
+	bottom: 1vh;
+	right: 35vw;
+	z-index: 999;		
+}
+
+#sakanaction-img
+{
+	max-width: 100%;
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px 3vw;
+}
+
+#soma-img
+{
+	max-width: 90%;
+	margin-left: 3vw;
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+/*	padding: 20px 3vw;*/
+}
+#miku-img
+{
+	max-width: 90%;
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 5vw;
+	padding: 5vh 3vw;
+}
+
+#popa-img
+{
+	max-width: 90%;
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 5vw;
+	padding: 1vh 1vw;
+}
+
+#choco-img
+{
+	max-width: 90%;
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 5vw;
+	padding: 1vh 1vw;
+}
+
+.column
+{
+	flex:50%;
+	max-width: 42%;
+	padding: 20px 3vw;
+}
+.c-column
+{
+	flex:90%;
+	max-width: 30%;
+	padding: 1vh 1vw;
+}
+
+.column img
+{
+	margin-top: 15px;
+	margin-left: 40px;
+	width: 100%;
+	vertical-align: middle;
+	align-content: center;
+}
+
+#web-trigger
+{
+	position: relative;
+	bottom: 5vh;
+	left:45vw;
+	width: 5%;
+}
+
+.zoomInThis
+{
+	scale: 50%;
+}
